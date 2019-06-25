@@ -10,11 +10,10 @@ Welcome to grid-control's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+   error_codes.rst
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
