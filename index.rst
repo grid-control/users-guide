@@ -1,11 +1,11 @@
-Welcome to grid-control's documentation!
-========================================
+**grid-control** user's guide
+=============================
 
 .. image:: gc.png
 
 
 Contents
-========
+--------
 
 .. toctree::
    :maxdepth: 2
@@ -14,7 +14,7 @@ Contents
    error_codes.rst
 
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`search`
