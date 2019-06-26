@@ -15,6 +15,7 @@ Contents
    :maxdepth: 2
 
    installation.rst
+   getting_started.rst
    error_codes.rst
 
 Indices and tables
