@@ -26,7 +26,7 @@ Requirements on the worker nodes:
 Installation from PyPI (``pip``)
 --------------------------------
 
-.. code:: bash
+.. code-block:: shell-session
 
     $ pip install --user grid-control
 
@@ -35,7 +35,7 @@ This installs the default ``go.py`` executable. In addition the executalbe ``gri
 Clone from git
 --------------
 
-.. code:: bash
+.. code-block:: shell-session
 
     # whereever you check out your projects
     $ cd <your project path>
@@ -52,7 +52,7 @@ Clone from git
 Now one option is to place a link to the executable in a location contained in your ``PATH`` environment variable.
 Assuming ``~/bin`` is such a location (check with ``echo $PATH``):
 
-.. code:: bash
+.. code-block:: shell-session
 
     $ cd ~/bin
     $ ln -s <your project path>/grid-control/go.py grid-control
@@ -64,7 +64,7 @@ Switch to a different branch
 
 Different branches can be used. E.g. ``testing`` for more up-to-date changes:
 
-.. code:: bash
+.. code-block:: shell-session
 
     $ cd <your project path>/grid-control
     $ git checkout testing 
@@ -76,7 +76,7 @@ Pull remote changes
 
 Update your version with upstream changes from the current branch (make sure you are on the local branch that you want to update):
 
-.. code:: bash
+.. code-block:: shell-session
 
     $ cd <your project path>/grid-control
     $ git pull
