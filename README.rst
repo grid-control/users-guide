@@ -17,3 +17,9 @@ Build the documentation:
    $ make html
    # build pdf documentation
    $ make latexpdf
+
+Deploy (maybe clear the directory before):
+
+.. code-block:: shell-session
+
+   $ sphinx-build -b html . ../grid-control.github.io
