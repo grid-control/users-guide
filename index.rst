@@ -14,6 +14,7 @@ Sources:
 
    installation.rst
    getting_started.rst
+   tips_tricks.rst
    error_codes.rst
 
 
