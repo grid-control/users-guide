@@ -3,11 +3,12 @@ grid-control user's guide
 
 grid-control user's guide written in reStructuredText to be compiled using `sphinx <http://www.sphinx-doc.org/en/master/>`_
 
-Install sphinx:
+Install sphinx and theme:
 
 .. code-block:: shell-session
 
    $ pip install --user sphinx
+   $ pip install --user sphinx_rtd_theme
 
 Build the documentation:
 
