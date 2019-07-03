@@ -113,3 +113,10 @@ Everything looks fine and we can actually submit the jobs: We invoke ``grid-cont
    2019-06-26 14:15:30 - Workdir was /home/jolange/playground/gc/work.host
 
 While grid-control is running, it checks the status of running jobs, retrieves and analyzes finished jobs and then submits jobs that are ready. We used the continuous mode (``-c``) to let grid-control repeat this until the task is finished. We can interrupt this by pressing :kbd:`Ctrl-C` and restart it by just calling ``grid-control [-s] <conf>`` again.
+
+
+Further examples
+----------------
+
+Further example configurations can be found here:
+https://github.com/grid-control/grid-control/tree/master/docs/examples
