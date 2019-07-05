@@ -26,11 +26,15 @@ Requirements on the worker nodes:
 Installation from PyPI (``pip``)
 --------------------------------
 
+**Note**: *Since the PyPI release is rather outdated at the moment, we recommend* :ref:`cloning from git <clone_from_git>`.
+
 .. code-block:: shell-session
 
     $ pip install --user grid-control
 
 This installs the default ``go.py`` executable. In addition the executalbe ``gridcontrol`` is provided, because of the more descriptive name.
+
+.. _clone_from_git:
 
 Clone from git
 --------------
