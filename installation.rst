@@ -6,6 +6,8 @@ Installation
    :backlinks: none
 
 
+**Note**: *If you are using grid-control with the NAF, you can use the* :ref:`central installation <NAF_central_inst>`.
+
 Requirements
 ------------
 
