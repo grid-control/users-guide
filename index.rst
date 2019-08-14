@@ -1,7 +1,7 @@
 **grid-control** user's guide
 =============================
 
-.. image:: gc.png
+.. image:: gc_running.gif
 
 Sources:
 
