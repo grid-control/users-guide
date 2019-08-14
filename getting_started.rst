@@ -5,6 +5,8 @@ grid-control needs a configuration file written in a simple ini-style language. 
 
 In the following, it is assumed that the executable is called ``grid-control``. You might need to replace this with ``go.py`` or ``gridcontrol`` depending on your :doc:`installation <installation>`.
 
+.. image:: gc_example.gif
+
 First configuration (run jobs on the local machine)
 ---------------------------------------------------
 
