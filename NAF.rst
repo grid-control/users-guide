@@ -4,6 +4,10 @@ NAF specifics
 If you are a user of the National Analysis Facility (`NAF <https://naf.desy.de>`_) and want to submit to the
 `BIRD <http://bird.desy.de>`_ batch farm, this page provides some specific instructions and features for you.
 
+.. contents::
+   :local:
+   :backlinks: none
+
 .. _NAF_central_inst:
 
 Central installation
