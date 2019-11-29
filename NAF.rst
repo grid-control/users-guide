@@ -31,6 +31,16 @@ If you need a newer version containing recent changes, you can use the ``testing
 After you loaded the module (you might want to do this in your :file:`.[bash|zsh|*]rc` file), you can use the ``grid-control`` executable.
 
 
+Backend
+-------
+On the NAF, the HTCondor batch system is used. This is detected automatically, if you specify that a local backend should be used:
+
+.. code-block:: ini
+
+   [global]
+   backend = local
+
+
 Submitting to CentOS7 nodes
 ---------------------------
 
