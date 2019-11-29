@@ -52,7 +52,7 @@ To submit to EL7 (= CentOS7) worker nodes only, use
 .. code-block:: ini
 
    [condor]
-   user requirements = ( OpSysAndVer == "CentOS7")
+   user requirements = ( OpSysAndVer == "CentOS7" )
 
 
 To allow the jobs to run on the EL6 *and* EL7 nodes, use
@@ -60,5 +60,5 @@ To allow the jobs to run on the EL6 *and* EL7 nodes, use
 .. code-block:: ini
 
    [condor]
-   user requirements = ( OpSysAndVer == "CentOS7" || OpSysAndVer == "SL6")
+   user requirements = ( OpSysAndVer == "CentOS7" || OpSysAndVer == "SL6" )
 
