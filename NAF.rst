@@ -62,3 +62,26 @@ To allow the jobs to run on the EL6 *and* EL7 nodes, use
    [condor]
    user requirements = ( OpSysAndVer == "CentOS7" || OpSysAndVer == "SL6" )
 
+
+Singularity (Virtualization)
+----------------------------
+
+To run EL6 jobs on EL7 worker nodes in a
+`container environment <https://confluence.desy.de/display/IS/Containers>`_,
+`singularity <https://confluence.desy.de/display/IS/Singularity>`_
+can be used
+`within the batch system <https://confluence.desy.de/display/IS/Singularity+support+in+BIRD>`_.
+
+First, store an image to DUST (not afs!), e.g. with
+
+.. code-block:: shell-session
+
+   $ mkdir /nfs/dust/cms/user/${USER}/singularity
+   $ SINGULARITY_CACHEDIR="/nfs/dust/cms/user/${USER}/singularity" singularity pull /nfs/dust/cms/user/${USER}/singularity/slc6_latest.sif docker://cmssw/slc6:latest 
+   INFO:    Converting OCI blobs to SIF format
+   INFO:    Starting build...
+   Getting image source signatures
+   [... working ...]
+
+This will take a few seconds to minutes, but you'll only have to do it once.
+
