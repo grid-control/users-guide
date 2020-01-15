@@ -79,7 +79,8 @@ To run EL6 jobs on EL7 worker nodes in a
 can be used
 `within the batch system <https://confluence.desy.de/display/IS/Singularity+support+in+BIRD>`_.
 
-First, store an image to DUST (not afs!), e.g. with
+If you already have a working image, you can use that.
+Otherwise, store an image to DUST (not afs!), e.g. with
 
 .. code-block:: shell-session
 
@@ -91,4 +92,12 @@ First, store an image to DUST (not afs!), e.g. with
    [... working ...]
 
 This will take a few seconds to minutes, but you'll only have to do it once.
+
+In the grid-control config, set the corresponding attributes:
+
+.. code-block:: ini
+
+   [condor]
+   user requirements = ( OpSysAndVer == "CentOS7" )
+   jdl data = +MySingularityImage="/nfs/dust/cms/user/<user>/singularity/slc6_latest.sif"
 
