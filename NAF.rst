@@ -70,6 +70,21 @@ To allow the jobs to run on EL6 *and* EL7 nodes, use
    user requirements = ( OpSysAndVer == "CentOS7" || OpSysAndVer == "SL6" )
 
 
+Custom entries in condor submit file
+------------------------------------
+
+You can add custom entries to the submission file used for condor:
+
+.. code-block:: ini
+
+   [condor]
+   jdldata =
+         +MyProject="xyz"
+         +MyCustomAttribute=12
+
+Make sure that you don't use whitespaces in the attributes, because they are interpreted as list separators!
+
+
 Singularity (Virtualization)
 ----------------------------
 
