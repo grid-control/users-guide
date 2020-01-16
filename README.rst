@@ -16,7 +16,7 @@ Build the documentation:
 
    # build html documentation
    $ make html
-   # build pdf documentation
+   # (optional) build pdf documentation
    $ make latexpdf
 
 Deploy (maybe clear the directory before):
