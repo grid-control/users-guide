@@ -23,11 +23,11 @@ You don't need to install grid-control on your own, if you're a NAF user. We pro
    grid-control/current(default) grid-control/testing
    grid-control/previous
 
-   $ module load grid-control/current 
+   $ module load grid-control/current
 
 The default version is ``current``, which is the general recommendation. Whenever ``current`` is updated, the last version will be made available as ``previous`` for the case that you rely on that specific version for some time still (e.g. for existing tasks).
 If you need a newer version containing recent changes, you can use the ``testing`` version.
-   
+
 After you loaded the module (you might want to do this in your :file:`.[bash|zsh|*]rc` file), you can use the ``grid-control`` executable.
 
 
@@ -110,7 +110,7 @@ Otherwise, store an image to DUST (not afs!), e.g. with
 .. code-block:: shell-session
 
    $ mkdir /nfs/dust/cms/user/${USER}/singularity
-   $ SINGULARITY_CACHEDIR="/nfs/dust/cms/user/${USER}/singularity" singularity pull /nfs/dust/cms/user/${USER}/singularity/slc6_latest.sif docker://cmssw/slc6:latest 
+   $ SINGULARITY_CACHEDIR="/nfs/dust/cms/user/${USER}/singularity" singularity pull /nfs/dust/cms/user/${USER}/singularity/slc6_latest.sif docker://cmssw/slc6:latest
    INFO:    Converting OCI blobs to SIF format
    INFO:    Starting build...
    Getting image source signatures
