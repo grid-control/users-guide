@@ -144,4 +144,4 @@ In the grid-control config, add
 .. code-block:: ini
 
    [backend]
-   proxy += VomsProxy
+   proxy = VomsProxy
