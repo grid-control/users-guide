@@ -126,3 +126,22 @@ In the grid-control config, set the corresponding attributes:
    user requirements = ( OpSysAndVer == "CentOS7" )
    jdl data = +MySingularityImage="/nfs/dust/cms/user/<user>/singularity/slc6_latest.sif"
 
+
+Use a VOMS proxy
+----------------
+
+If your jobs need a VOMS proxy token, the easiest way is to place it on a shared file system, i.e. AFS.
+For this, set the environment variable ``X509_USER_PROXY``, e.g. in your :file:`.[bash|zsh|*]rc` file:
+
+.. code-block:: shell-session
+
+   export X509_USER_PROXY=/afs/desy.de/user/<U>/<USER>/private/x509_voms
+
+After this is set, create your new proxy (``voms-proxy-init``).
+
+In the grid-control config, add
+
+.. code-block:: ini
+
+   [backend]
+   proxy += VomsProxy
