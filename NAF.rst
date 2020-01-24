@@ -40,16 +40,6 @@ On the NAF, the HTCondor batch system is used. This is detected automatically, i
    [global]
    backend = local
 
-Selecting the accounting group / project
-----------------------------------------
-
-You can explicitly choose the accounting group used in HTCondor if you are a member of several projects, e.g ``af-cms``:
-
-.. code-block:: ini
-
-   [condor]
-   naf project = af-cms
-
 
 Submitting to CentOS7 nodes
 ---------------------------
