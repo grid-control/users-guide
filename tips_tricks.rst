@@ -21,5 +21,5 @@ Global configuration
 .. code-block:: ini
 
    [global]
-   workdir create= True ; don't ask if workdir should be created
+   workdir create = True ; don't ask if workdir should be created
 
