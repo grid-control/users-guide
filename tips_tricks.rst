@@ -16,7 +16,8 @@ This allows you to detach the screen session and disconnect your ssh connection,
 Global configuration
 --------------------
 
-~/.grid-control.conf
+Global configuration options can be set per user in :file:`$HOME/.grid-control.conf`.
+Any task configuration options will overwrite these.
 
 .. code-block:: ini
 
